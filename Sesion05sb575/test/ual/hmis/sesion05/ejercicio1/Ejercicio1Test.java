@@ -1,6 +1,7 @@
 package ual.hmis.sesion05.ejercicio1;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
