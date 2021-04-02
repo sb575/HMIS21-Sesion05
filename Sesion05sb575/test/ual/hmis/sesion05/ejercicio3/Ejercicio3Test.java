@@ -11,8 +11,9 @@ import org.junit.jupiter.api.Test;
 
 public class Ejercicio3Test {
 
-	@ParameterizedTest (name = "{num} => Con numero ({1}) sale {*****}")
-	@CsvSource ({"1, *****"})
+	@ParameterizedTest(name = "{index} => Con numero ({0}) sale {1}")
+	@CsvSource ({"1, *****", "0, *****", "5, *****", "6, ******", "12, ************",
+		"13, ************", "-1, número erróneo"})
 	void testAsteriscos_parametrized(int num, String expected) {
 		Ejercicio3 ejercicio3 = new Ejercicio3();
 		assertEquals(expected, ejercicio3.devolverAsteriscos(num));
