@@ -1,6 +1,9 @@
 package ual.hmis.sesion05.ejercicio9;
 
+import org.junit.*;
+
 import static org.junit.Assert.assertArrayEquals;
+
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,7 +20,7 @@ public class Ejercicio9Test {
 	
 	@ParameterizedTest
 	@MethodSource("cadenaProvider")
-	void Ejercicio9Test(ArrayList<String> cadenaOrdenada1, ArrayList<String> cadenaOrdenada2, ArrayList<String> cadenaOrdenadaResultado) {
+	void ejercicio9Test(ArrayList<String> cadenaOrdenada1, ArrayList<String> cadenaOrdenada2, ArrayList<String> cadenaOrdenadaResultado) {
 		Ejercicio9 e = new Ejercicio9();
 		ArrayList<String> resultado = e.listaCadenasOrdenadas(cadenaOrdenada1, cadenaOrdenada2);
 		

@@ -15,8 +15,7 @@ public class Ferry {
 		
 	}
 	
-	public Ferry(int maxNumPasajeros, int maxPesoVehiculos, int maxTotalVehiculos,
-			ArrayList<Vehiculo> listaVehiculos) {
+	public Ferry(int maxNumPasajeros, int maxPesoVehiculos, int maxTotalVehiculos, ArrayList<Vehiculo> listaVehiculos) {
 		super();
 		this.maxNumPasajeros = maxNumPasajeros;
 		this.maxPesoVehiculos = maxPesoVehiculos;
@@ -78,55 +77,35 @@ public class Ferry {
 	}
 	
 	
-	
-	/**
-	 * Embarca un vehículo añadiéndolo a la lista
-	 * @param Vehiculo v
-	 * @return
-	 */
+
 	public boolean embarcarVehiculo(Vehiculo v) {
 		
 		return listaVehiculos.add(v);
 	}
 	
-	/**
-	 * Devuelve el número total de vehículos embarcados 
-	 * @return
-	 */
+
 	public int totalVehiculos() {
 		return listaVehiculos.size();
 	}
 	
-	/**
-	 * Verdadero si no hay ningún vehículo
-	 * @return
-	 */
+
 	public boolean vacio() {
 		return listaVehiculos.isEmpty();
 	}
 	
-	/**
-	 * Verdadero si el número total de los vehículos supera el máximo
-	 * @return
-	 */
+
 	public boolean superadoMaximoVehiculos() {
 		
 		return getNumTotalVehiculos() > getMaxTotalVehiculos();
 	}
 	
-	/**
-	 * Verdadero si el peso total de los vehículos supera el máximo
-	 * @return
-	 */
+
 	public boolean superadoMaximoPeso() {
 		
 		return getPesoTotalVehiculos() > getMaxPesoVehiculos();
 	}
 	
-	/**
-	 * Verdadero si el numero total de pasajeros supera el máximo
-	 * @return
-	 */
+
 	public boolean superadoMaximoPasajeros() {
 		
 		return getNumTotalPasajeros() > getMaxNumPasajeros();

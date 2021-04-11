@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2021-04-11T12:19:43.230">
+<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio3\Ejercicio3.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Best Practices" package="ual.hmis.sesion05.ejercicio3" class="Ejercicio3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.Scanner'
+</violation>
+</file>
+<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio4\Ejercicio4.java">
+<violation beginline="10" endline="10" begincolumn="26" endcolumn="26" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="ual.hmis.sesion05.ejercicio4" class="Ejercicio4" method="intersectCadenas" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio8\Vehiculo.java">
+<violation beginline="6" endline="6" begincolumn="21" endcolumn="29" rule="UnusedPrivateField" ruleset="Best Practices" package="ual.hmis.sesion05.ejercicio8" class="Vehiculo" variable="numRuedas" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'numRuedas'.
+</violation>
+</file>
+</pmd>

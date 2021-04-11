@@ -8,7 +8,7 @@ public class Ejercicio3 {
 		String asteriscos = "";
 		if (num < 0) {
 
-			asteriscos = "número erróneo";
+			asteriscos = "nÃºmero errÃ³neo";
 
 		} else if (num < 5) {
 

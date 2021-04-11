@@ -1,12 +1,16 @@
 package ual.hmis.sesion05.ejercicio8;
 
+import org.junit.*;
 import static org.junit.Assert.assertEquals;
+
+
+
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertSame;
-import static org.junit.Assert.assertTrue;
+//import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;
@@ -19,8 +23,7 @@ public class Ejercicio8Test {
 	
 	@ParameterizedTest
 	@MethodSource("ferryProvider")
-	void Ejercicio8Test(Ferry ferry, int totalVehiculos, 
-			boolean vacio, boolean superadoMaximoVehiculos, boolean superadoMaximoPeso, boolean superadoMaximoPasajeros) {
+	void ejercicio8Test(Ferry ferry, int totalVehiculos, boolean vacio, boolean superadoMaximoVehiculos, boolean superadoMaximoPeso, boolean superadoMaximoPasajeros) {
 		
 		
 		assertNotNull(ferry);
