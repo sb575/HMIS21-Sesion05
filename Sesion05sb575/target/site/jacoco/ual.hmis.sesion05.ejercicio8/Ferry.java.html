@@ -77,58 +77,38 @@ public class Ferry {
 <span class="fc" id="L77">	}</span>
 	
 	
-	
-	/**
-	 * Embarca un veh�culo a�adi�ndolo a la lista
-	 * @param Vehiculo v
-	 * @return
-	 */
+
 	public boolean embarcarVehiculo(Vehiculo v) {
 		
-<span class="fc" id="L88">		return listaVehiculos.add(v);</span>
+<span class="fc" id="L83">		return listaVehiculos.add(v);</span>
 	}
 	
-	/**
-	 * Devuelve el n�mero total de veh�culos embarcados 
-	 * @return
-	 */
+
 	public int totalVehiculos() {
-<span class="fc" id="L96">		return listaVehiculos.size();</span>
+<span class="fc" id="L88">		return listaVehiculos.size();</span>
 	}
 	
-	/**
-	 * Verdadero si no hay ning�n veh�culo
-	 * @return
-	 */
+
 	public boolean vacio() {
-<span class="fc" id="L104">		return listaVehiculos.isEmpty();</span>
+<span class="fc" id="L93">		return listaVehiculos.isEmpty();</span>
 	}
 	
-	/**
-	 * Verdadero si el n�mero total de los veh�culos supera el m�ximo
-	 * @return
-	 */
+
 	public boolean superadoMaximoVehiculos() {
 		
-<span class="fc bfc" id="L113" title="All 2 branches covered.">		return getNumTotalVehiculos() &gt; getMaxTotalVehiculos();</span>
+<span class="fc bfc" id="L99" title="All 2 branches covered.">		return getNumTotalVehiculos() &gt; getMaxTotalVehiculos();</span>
 	}
 	
-	/**
-	 * Verdadero si el peso total de los veh�culos supera el m�ximo
-	 * @return
-	 */
+
 	public boolean superadoMaximoPeso() {
 		
-<span class="fc bfc" id="L122" title="All 2 branches covered.">		return getPesoTotalVehiculos() &gt; getMaxPesoVehiculos();</span>
+<span class="fc bfc" id="L105" title="All 2 branches covered.">		return getPesoTotalVehiculos() &gt; getMaxPesoVehiculos();</span>
 	}
 	
-	/**
-	 * Verdadero si el numero total de pasajeros supera el m�ximo
-	 * @return
-	 */
+
 	public boolean superadoMaximoPasajeros() {
 		
-<span class="fc bfc" id="L131" title="All 2 branches covered.">		return getNumTotalPasajeros() &gt; getMaxNumPasajeros();</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">		return getNumTotalPasajeros() &gt; getMaxNumPasajeros();</span>
 	}
 }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.29">
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio1\Ejercicio1.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio1\Ejercicio1.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="6" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="6" column="9" severity="error" message="Class &apos;Ejercicio1&apos; looks like designed for extension (can be subclassed), but the method &apos;transformar&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Ejercicio1&apos; final or making the method &apos;transformar&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
@@ -28,7 +28,7 @@
 <error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio10\Ejercicio10.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio10\Ejercicio10.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="4" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -39,7 +39,7 @@
 <error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio2\Ejercicio2.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio2\Ejercicio2.java">
 <error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -65,7 +65,7 @@
 <error line="18" column="17" severity="error" message="Conditional logic can be removed." source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanReturnCheck"/>
 <error line="20" severity="error" message="&apos;else&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio3\Ejercicio3.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio3\Ejercicio3.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="3" column="8" severity="error" message="Unused import - java.util.Scanner." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
 <error line="6" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
@@ -76,7 +76,7 @@
 <error line="13" column="34" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 <error line="17" column="34" severity="error" message="&apos;12&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio4\Ejercicio4.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio4\Ejercicio4.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="4" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="4" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -86,12 +86,12 @@
 <error line="5" column="47" severity="error" message="Name &apos;P1&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
 <error line="5" column="51" severity="error" message="Parameter P2 should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="5" column="58" severity="error" message="Name &apos;P2&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
-<error line="7" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="8" column="25" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="7" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="8" column="25" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 <error line="10" column="25" severity="error" message="&apos;}&apos; at column 4 should be alone on a line." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
 <error line="10" column="26" severity="error" message="Empty statement." source="com.puppycrawl.tools.checkstyle.checks.coding.EmptyStatementCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio8\Ferry.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio8\Ferry.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="6" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="6" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -139,14 +139,14 @@
 <error line="49" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="50" column="9" severity="error" message="Class &apos;Ferry&apos; looks like designed for extension (can be subclassed), but the method &apos;getNumTotalPasajeros&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Ferry&apos; final or making the method &apos;getNumTotalPasajeros&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="50" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="52" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="52" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 <error line="57" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="58" column="9" severity="error" message="Class &apos;Ferry&apos; looks like designed for extension (can be subclassed), but the method &apos;getNumTotalVehiculos&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Ferry&apos; final or making the method &apos;getNumTotalVehiculos&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="58" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="62" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="63" column="9" severity="error" message="Class &apos;Ferry&apos; looks like designed for extension (can be subclassed), but the method &apos;getPesoTotalVehiculos&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Ferry&apos; final or making the method &apos;getPesoTotalVehiculos&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="63" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
-<error line="65" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="65" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 <error line="70" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="71" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="72" column="9" severity="error" message="Class &apos;Ferry&apos; looks like designed for extension (can be subclassed), but the method &apos;getListaVehiculos&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Ferry&apos; final or making the method &apos;getListaVehiculos&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
@@ -180,7 +180,7 @@
 <error line="109" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
 <error line="110" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio8\Vehiculo.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio8\Vehiculo.java">
 <error line="5" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
 <error line="5" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="6" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
@@ -217,7 +217,7 @@
 <error line="36" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="37" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
-<file name="C:\Users\Sokaina\git\HMIS21-Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio9\Ejercicio9.java">
+<file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio9\Ejercicio9.java">
 <error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 <error line="6" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 <error line="6" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
@@ -229,7 +229,7 @@
 <error line="7" column="126" severity="error" message="&apos;{&apos; at column 119 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
 <error line="7" column="126" severity="error" message="&apos;{&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 <error line="8" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="9" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="10" column="25" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="9" column="17" severity="error" message="&apos;for&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" column="25" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 </checkstyle>
