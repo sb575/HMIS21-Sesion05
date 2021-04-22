@@ -148,12 +148,16 @@
 				<artifactId>maven-project-info-reports-plugin</artifactId>
 				<version>3.0.0</version>
 			</plugin>
-					<plugin>
+		 		<!-- <plugin>
 				<groupId>org.owasp</groupId>
 				<artifactId>dependency-check-maven</artifactId>
 				<version>6.1.5</version>
 				<configuration>
 					<skipTestScope>false</skipTestScope>
+					<formats>
+						<format>HTML</format>
+						<format>XML</format>
+					</formats>
 				</configuration>
 				<reportSets>
 					<reportSet>
@@ -162,7 +166,7 @@
 						</reports>
 					</reportSet>
 				</reportSets>
-				</plugin>
+				</plugin> -->
 		</plugins>
 	</reporting>
 	
