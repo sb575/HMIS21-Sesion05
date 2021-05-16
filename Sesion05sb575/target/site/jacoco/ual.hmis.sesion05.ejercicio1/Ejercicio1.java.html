@@ -3,18 +3,19 @@
 <span class="fc" id="L3">public class Ejercicio1 {</span>
 
 
-	public int transformar(int x) {
+	public int transformar(int x){
 		
 <span class="fc" id="L8">		int resultado = 0;</span>
-<span class="fc bfc" id="L9" title="All 2 branches covered.">		if (x % 2 == 0) // % Resto de una divisi�n entre enteros (mod)</span>
+<span class="fc bfc" id="L9" title="All 2 branches covered.">		if (x % 2 == 0) {  //% Resto de una division entre enteros (mod)</span>
 <span class="fc" id="L10">			resultado = transformar (x/2);</span>
-<span class="fc bfc" id="L11" title="All 2 branches covered.">		else if (x % 3 == 0)</span>
+<span class="fc bfc" id="L11" title="All 2 branches covered.">		}else if (x % 3 == 0){</span>
 <span class="fc" id="L12">			resultado = transformar (x/3);</span>
-<span class="fc bfc" id="L13" title="All 2 branches covered.">		else if (x % 5 == 0)</span>
+<span class="fc bfc" id="L13" title="All 2 branches covered.">		}else if (x % 5 == 0) {</span>
 <span class="fc" id="L14">			resultado = transformar (x/5);</span>
-<span class="fc" id="L15">		else return x;</span>
-		
-<span class="fc" id="L17">		return resultado;</span>
+		}else {
+<span class="fc" id="L16">			return x;</span>
+		}
+<span class="fc" id="L18">		return resultado;</span>
 		
 	}
 	
