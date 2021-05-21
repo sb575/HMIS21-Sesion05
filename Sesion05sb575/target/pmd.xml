@@ -2,7 +2,7 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.21.0" timestamp="2021-05-16T16:55:06.538">
+    version="6.21.0" timestamp="2021-05-21T17:48:50.139">
 <file name="C:\Users\Sokaina\git\Sesion05\Sesion05sb575\src\ual\hmis\sesion05\ejercicio3\Ejercicio3.java">
 <violation beginline="3" endline="3" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Best Practices" package="ual.hmis.sesion05.ejercicio3" class="Ejercicio3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
 Avoid unused imports such as 'java.util.Scanner'
