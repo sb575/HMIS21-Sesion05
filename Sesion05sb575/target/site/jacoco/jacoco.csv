@@ -1,9 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Sesion05sb575,ual.hmis.sesion05.ejercicio4,Ejercicio4,0,38,0,4,0,6,0,4,0,2
-Sesion05sb575,ual.hmis.sesion05.ejercicio3,Ejercicio3,0,40,0,8,0,11,0,6,0,2
-Sesion05sb575,ual.hmis.sesion05.ejercicio2,Ejercicio2,0,38,0,12,0,9,0,9,0,3
-Sesion05sb575,ual.hmis.sesion05.ejercicio1,Ejercicio1,0,42,0,6,0,10,0,5,0,2
-Sesion05sb575,ual.hmis.sesion05.ejercicio10,Ejercicio10,0,12,0,0,0,6,0,2,0,2
-Sesion05sb575,ual.hmis.sesion05.ejercicio8,Vehiculo,0,33,0,0,0,15,0,7,0,7
-Sesion05sb575,ual.hmis.sesion05.ejercicio8,Ferry,0,144,0,10,0,38,0,24,0,19
-Sesion05sb575,ual.hmis.sesion05.ejercicio9,Ejercicio9,0,28,0,4,0,7,0,4,0,2
